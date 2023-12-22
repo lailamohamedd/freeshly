@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <link rel="icon" href="img/logo.png">
+    <title>FREESHLY</title>
+</head>
+<body>
+    <!-- Start Trials -->
+    <div class="trials">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <img src="./img/logo.png" width="200px" alt="logo">
+            </div>
+            <div class="col-md-12">
+              <div class="progress-wrapper">
+                <div id="progress-bar-container">
+                  <div id="line">
+                    <div id="line-progress"></div>
+                  </div>
+                  <ul>
+                    <li class="step step01 active">
+                      <div class="step-inner">Select Plan</div>
+                    </li>
+                    <li class="step step02">
+                      <div class="step-inner">Delivery details</div>
+                    </li>
+                    <li class="step step03">
+                      <div class="step-inner">Summary</div>
+                    </li>
+                  </ul>
+                  
+                  <!-- progress-bar-container -->
+                  <div id="progress-content-section">
+                    <div class="section-content step1 text-center active">
+                      <div class="content-step">
+                        <div class="text">
+                          <h2>TRIALS</h2>
+                          <p>
+                            3 Day Trials | 1200-2000+ calories based on your preferred plan | Diverse cuisine | Meat, Seafood & vegetarian options
+                          </p>
+                        </div>
+                        <img class="card-img-top" src="./img/Trials.jpg" alt="Card image cap">
+                        <div class="form">
+                          <div class="form-group">
+                            <select id="inputState" class="form-control">
+                              <option selected>Select Your Plan</option>
+                              <option>...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <select id="inputState" class="form-control">
+                              <option selected>Select Your Meals</option>
+                              <option>...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="d-flex coupon" style="justify-content: space-between !important;">
+                            <div class="form-group">
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <button class="btn form-control">Validate Coupon</button>
+                            </div>
+                          </div>
+                          <p>Above prices include VAT & conatct-less delivery across UAE</p>
+                          <hr>
+                          <p>Free delivery across UAE</p>
+                          <hr>
+                          <button class="btn btn-lg form-control btn-step">Select</button>
+                        </div>
+                      </div>
+                      <div class="icon-row">
+                        <div class="icon-wrapper">
+                          <div class="icon">
+                            <img src="./img/calendar.svg" alt="calendar" />
+                          </div>
+                          <div class="icon-text">Skip any week</div>
+                        </div>
+                        <div class="icon-wrapper">
+                          <div class="icon"><img src="./img/menu.svg" alt="Menu" /></div>
+                          <div class="icon-text"><a href="#" target="_blank" style="text-decoration: underline; font-weight: bold; color: #333;">Download Sample Menu</a></div></div>
+                        <div class="icon-wrapper">
+                          <div class="icon">
+                            <img src="./img/dishes.svg" alt="Choose your dishes" />
+                          </div>
+                          <div class="icon-text">Choose your dishes</div>
+                        </div>
+                      </div>
+                      <p>You can choose your dishes after you sign up.</p>
+                      <h4 class="question-section my-4">Question? We've got the answer. </h4>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="box">
+                            <h6 class="mb-2">Can I choose my meals?</h6>
+                            <p>YES! Freshly Meal Plans has 50+ Menu options to choose from every week. It’s an International mix of Mediterranean, Arabic, Indian, Pan- Asian.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="box">
+                            <h6 class="mb-2">Can I skip a delivery?</h6>
+                            <p>Yes. Just drop a message 2 Business Days prior, we will pause your deliveries. Restart as you wish without loosing out on the number of days the plan was paused for.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="box">
+                            <h6 class="mb-2">No more stressing about healthy food</h6>
+                            <p>We'll cook meals with the highest quality ingredients and deliver them to your door.</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="box">
+                            <h6 class="mb-2">Simple + delicious</h6>
+                            <p>Freshly Meals Plans are full of flavors and healthy cooked without preservatives and saturated fats.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="section-content step2">
+                      <h2>PLEASE ENTER YOUR DETAILS AND DELIVERY ADDRESS</h2>
+                      <div class="form">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h3>Delivery information</h3>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="first-name">First Name</label>
+                              <input type="text" class="form-control" placeholder="First Name" name="first-name">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="last-name">Last Name</label>
+                              <input type="text" class="form-control" placeholder="Last Name" name="last-name">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="country">Country</label>
+                              <input type="text" class="form-control" placeholder="Country" name="country">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="email" class="form-control" placeholder="Email" name="email">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="address">Delivery Address</label>
+                              <input type="text" class="form-control" placeholder="Delivery Address" name="address">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="address2">Address line 2</label>
+                              <input type="text" class="form-control" placeholder="Address line 2" name="address2">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="city">City / Town</label>
+                              <input type="text" class="form-control" placeholder="City / Town" name="city">
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="phone">Phone number</label>
+                              <input type="number" class="form-control" placeholder="Phone number" name="phone">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="desc">Where can the package be left if you aren't home?</label>
+                              <textarea name="desc" class="form-control" id="" cols="30" rows="10" placeholder="e.g. Leave on front porch"></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 pb-2">
+                            <button class="btn btn-lg form-control btn-step">Next</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="section-content step3">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form">
+                            <h3>User Details</h3>
+                            <div class="">
+                              <table>
+                                <tbody>
+                                  <tr>
+                                    <th>First name</th>
+                                    <td id="user-details-firstname">jhhhkj</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Last name</th>
+                                    <td id="user-details-lastname" class="data-binding">jhhhkj</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Country</th>
+                                    <td id="user-details-country" class="data-binding">United Arab Emirates</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Email</th>
+                                    <td id="user-details-email" class="data-binding">jhj@ff.com</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Address Line 1</th>
+                                    <td id="user-details-address-line-one" class="data-binding">jhhhkj</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Address Line 2</th>
+                                    <td id="user-details-address-line-two" class="data-binding"></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Postal Code</span></th>
+                                    <td id="user-details-post-code" class="data-binding"></td>
+                                  </tr>
+                                  <tr>
+                                    <th>City</th>
+                                    <td id="user-details-city" class="data-binding">jhhhkj</td>
+                                  </tr>
+                                  <tr>
+                                    <th>State</th>
+                                    <td id="user-details-state" class="data-binding"></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Phone Number</th>
+                                    <td id="user-details-phone-number" class="data-binding">01010579244</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Where can the package be left if you aren't home?</th>
+                                    <td id="user-details-notes" class="data-binding">jhhhkj jhhhkjjhhhkj jhhhkj jhhhkj</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form">
+                            <h3>Order summary</h3>
+                            <div class="">
+                              <table>
+                                <tbody>
+                                  <tr>
+                                    <th>Plan</th>
+                                    <td>Trials / Keto / 3 Main Meals</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Order amount</th>
+                                    <td>AED 450</td>
+                                  </tr>
+                                  <tr>
+                                    <th>5% VAT</th>
+                                    <td>AED 22.50</td>
+                                  </tr>
+                                </tbody>
+                                <tfoot>
+                                  <tr>
+                                    <th>Bag Deposit - Refundable</th>
+                                    <td>AED 100</td>
+                                  </tr>
+                                    <tr>
+                                    <th>Coupon Discount <span style="font-size: 12px;font-weight: bold;">()</span></th>
+                                    <td>AED 0</td>
+                                  </tr>
+                                  
+                                  <tr>
+                                    <th class="checkbox-group">
+                                    <input type="checkbox">
+                                    <span>Coupon Code </span></th>
+                                  </tr>                    
+                                  <tr>
+                                    <th>
+                                    <input type="checkbox">
+                                    <span>Nutritionist (Phone Consultation)</span></th>
+                                    <td class="">AED 100</td>
+                                  </tr>
+                                  
+                                  <tr>
+                                    <th style="font-weight: bold;">Total amount</th>
+                                    <td style="font-weight: bold;">AED 573</td>
+                                  </tr>
+                                </tfoot>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mt-5">
+                          <button class="btn btn-lg form-control btn-step">Pay Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- progress-wrapper -->
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Trials -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="top-footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <h4 class="title-footer mb-4">Address</h4>
+                      <p>Studio Arked 1910 Gateway Road, Portland, Oregon 97230</p>
+                      <p>hello@grupi.com</p>
+                      <p>+1 202 555 0171</p>
+                  </div>
+                  <div class="col-md-3">
+                      <h4 class="title-footer mb-4">Links </h4>
+                      <ul class="link-pages p-0">
+                          <li>Home</li>
+                          <li>Meal Plan</li>
+                          <li>How It Works</li>
+                          <li>Trials</li>
+                          <li>Menus</li>
+                          <li>FAQ's</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <h4 class="title-footer mb-4">Follow us</h4>
+                      <ul class="social-links d-flex p-0">
+                          <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                          <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                          <li><a href="" target="_blank"><i class="fab fa-behance"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <img src="img/logo.png" width="150" height="70" class="logo-footer mb-3" alt="FRESHLY logo">
+                      <p>FRESHLY has been optimized to give your visitors the best experience in terms of UX/UI.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="bottom-footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <p>© 2023 CaseThemes. All rights reserved.</p>
+                  </div>
+                  <div class="col-md-6">
+                      <ul class="link-items p-0">
+                          <li> <a href="#"> Sitemap </a></li> | 
+                          <li> <a href="#"> Privacy Policy </a></li> | 
+                          <li> <a href="#"> Cookie Policy </a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- End Footer -->
+  <!-- Start Scroll Top -->
+  <button class="scroll-top" onclick="scrollToTop()"><i class="fa fa-arrow-up"></i></button>
+  <!-- End Scroll Top -->
+  <!-- Start Loading -->
+  <div class="loading">
+      <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+  </div>
+  <!-- End Loading -->
+  <!-- Swiper JS -->
+  <script src="js/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+</body>
+</html>
